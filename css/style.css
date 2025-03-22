@@ -1,0 +1,180 @@
+div.carta3picas {
+  width: 300px;
+  height: 500px;
+  border: 3px solid black;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+
+div.carta3picas img {
+  width: 70px;
+}
+
+div.carta3picas img:nth-of-type(3) {
+  transform: rotate(180deg);
+}
+
+div.carta3picas img:nth-of-type(4) {
+  position: absolute;
+  width: 30px;
+  top: 70px;
+  left: 20px;
+}
+
+div.carta3picas div {
+  font-size: 35px;
+  font-weight: bold;
+  position: absolute;
+  top: 30px;
+  left: 27px;
+}
+
+div.carta4picas {
+  width: 300px;
+  height: 500px;
+  border: 3px solid black;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+
+div.carta4picas img {
+  width: 70px;
+}
+
+div.carta4picas img:nth-of-type(1) {
+  align-self: start;
+  padding: 40px;
+}
+
+div.carta4picas img:nth-of-type(2) {
+  align-self: start;
+  padding: 40px;
+}
+
+div.carta4picas img:nth-of-type(3) {
+  align-self: end;
+  padding: 40px;
+  transform: rotate(180deg);
+}
+
+div.carta4picas img:nth-of-type(4) {
+  align-self: end;
+  padding: 40px;
+  transform: rotate(180deg);
+}
+
+div.carta4picas img:nth-of-type(5) {
+  position: absolute;
+  width: 30px;
+  top: 70px;
+  left: 15px;
+}
+div.carta4picas div:nth-of-type(1) {
+  font-size: 35px;
+  font-weight: bold;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+
+div.carta4picas img:nth-of-type(6) {
+  position: absolute;
+  width: 30px;
+  bottom: 70px;
+  right: 15px;
+  transform: rotate(180deg);
+}
+div.carta4picas div:nth-of-type(2) {
+  font-size: 35px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+}
+
+div.carta10picas {
+  width: 300px;
+  height: 500px;
+  border: 3px solid black;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4 1fr);
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+
+div.carta10picas img {
+  width: 70px;
+  padding: 25px;
+}
+
+div.carta10picas img:nth-of-type(5) {
+  transform: rotate(180deg);
+}
+div.carta10picas img:nth-of-type(6) {
+  transform: rotate(180deg);
+}
+
+div.carta10picas img:nth-of-type(7) {
+  transform: rotate(180deg);
+}
+
+div.carta10picas img:nth-of-type(8) {
+  transform: rotate(180deg);
+}
+
+div.carta10picas div:nth-of-type(1) {
+  font-size: 35px;
+  font-weight: bold;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+div.carta10picas div:nth-of-type(2) {
+  font-size: 35px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+}
+
+div.carta10picas img:nth-of-type(9) {
+  position: absolute;
+  width: 30px;
+  top: 40px;
+  left: -13px;
+}
+
+div.carta10picas img:nth-of-type(10) {
+  position: absolute;
+  width: 30px;
+  bottom: 40px;
+  right: -13px;
+  transform: rotate(180deg);
+}
+div.carta10picas img:nth-of-type(11) {
+  position: absolute;
+  top: 65px;
+}
+div.carta10picas img:nth-of-type(12) {
+  position: absolute;
+  bottom: 65px;
+  transform: rotate(180deg);
+}
