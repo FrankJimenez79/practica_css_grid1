@@ -122,7 +122,6 @@ div.carta10picas {
 
 div.carta10picas img {
   width: 70px;
-  padding: 25px;
 }
 
 div.carta10picas img:nth-of-type(5) {
@@ -158,23 +157,23 @@ div.carta10picas div:nth-of-type(2) {
 div.carta10picas img:nth-of-type(9) {
   position: absolute;
   width: 30px;
-  top: 40px;
-  left: -13px;
+  top: 60px;
+  left: 13px;
 }
 
 div.carta10picas img:nth-of-type(10) {
   position: absolute;
   width: 30px;
-  bottom: 40px;
-  right: -13px;
+  bottom: 60px;
+  right: 12px;
   transform: rotate(180deg);
 }
 div.carta10picas img:nth-of-type(11) {
   position: absolute;
-  top: 65px;
+  top: 90px;
 }
 div.carta10picas img:nth-of-type(12) {
   position: absolute;
-  bottom: 65px;
+  bottom: 90px;
   transform: rotate(180deg);
 }
