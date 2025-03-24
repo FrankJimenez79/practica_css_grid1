@@ -90,3 +90,97 @@ div.ejercicio4 div.celda1 {
 div.ejercicio4 div.celda2 {
   grid-area: celda2;
 }
+
+div.ejercicio5 {
+  width: 600px;
+  margin: auto;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px;
+}
+
+div.ejercicio5 div {
+  background-color: rgb(62, 98, 145);
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+div.ejercicio5 div.celda1 {
+  grid-area: 1 / 1/ 1 / 4;
+}
+
+div.ejercicio5 div.celda2 {
+  grid-area: 1 / 4 / span 2 / 4;
+}
+
+div.ejercicio6 {
+  width: 600px;
+  border: 1px solid black;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 200px 100px 300px;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1px;
+}
+
+div.ejercicio6 div {
+  background-color: rgb(62, 98, 145);
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+div.ejercicio6 div.celda1 {
+  grid-area: 1 / 1 / span 1 / span 2;
+}
+
+div.ejercicio6 div.celda4 {
+  grid-area: 2 / 2 / span 1 / span 2;
+}
+
+div.ejercicio6 div.celda5 {
+  grid-area: 3 / 1 / span 1 / span 3;
+}
+
+div.ejercicio7 {
+  width: 600px;
+
+  margin: auto;
+  display: grid;
+  grid-template-columns: 200px 400px;
+  grid-template-rows: 50px 100px 50px;
+  gap: 1px;
+  grid-template-areas:
+    " . celda1"
+    " celda2 celda3"
+    "celda4 celda4";
+}
+
+div.ejercicio7 div {
+  background-color: rgb(62, 98, 145);
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+
+div.ejercicio7 div.celda1 {
+  background-color: rgb(133, 85, 23);
+  grid-area: celda1;
+}
+
+div.ejercicio7 div.celda2 {
+  grid-area: celda2;
+}
+
+div.ejercicio7 div.celda3 {
+  grid-area: celda3;
+  text-align: left;
+}
+
+div.ejercicio7 div.celda4 {
+  grid-area: celda4;
+  background-color: rgb(66, 63, 63);
+}
