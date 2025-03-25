@@ -184,3 +184,80 @@ div.ejercicio7 div.celda4 {
   grid-area: celda4;
   background-color: rgb(66, 63, 63);
 }
+
+div.ejercicio8 {
+  width: 600px;
+  border: 1px solid black;
+  margin: auto;
+  display: grid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px;
+}
+
+div.ejercicio8 div {
+  background-color: rgb(52, 94, 143);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+div.ejercicio8 div.celda1 {
+  order: 1;
+}
+
+div.ejercicio9 {
+  width: 600px;
+  border: 1px solid black;
+  margin: auto;
+  display: grid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px;
+  grid-auto-flow: column;
+}
+
+div.ejercicio9 div {
+  background-color: rgb(52, 94, 143);
+  padding: 20px;
+
+  color: white;
+}
+
+div.ejercicio10 {
+  width: 600px;
+  border: 1px solid black;
+  margin: auto;
+  display: grid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  grid-template-columns: 200px 400px;
+  grid-template-rows: 50px 100px 100px;
+  gap: 1px;
+  text-align: center;
+}
+div.ejercicio10 div {
+  background-color: rgb(52, 94, 143);
+  padding: 15px;
+
+  color: white;
+}
+
+div.ejercicio10 div.celda4 {
+  grid-area: 2 / 2 / span 2 / span 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px;
+}
+
+div.ejercicio10 div.celda4 li {
+  background-color: rgb(198, 173, 221);
+  padding: 20px;
+  color: black;
+  list-style: none;
+}
+div.ejercicio10 div.celda4 li:nth-of-type(1) {
+  grid-area: 1 / 1 / span 1 / span 2;
+}
